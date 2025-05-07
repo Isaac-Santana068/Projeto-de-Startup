@@ -1,2 +1,3 @@
 # Projeto-de-Startup
-Projeto Startup, site rede social/repositório, baseado no linkedin, pintereste e GitHub
+
+Site para artistas digítais, que funciona como uma rede social e que também sirva para armazenar arquivos de desenhos criado por eles e que é criado com o intuito de segurança.
