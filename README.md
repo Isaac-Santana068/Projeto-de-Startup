@@ -13,7 +13,7 @@ Cores escolhidas são um tom de azul e preto.
 
 | Cor              | Hexadecimal | 
 |------------------|-------------|
-| Roxo             | `#7940DB`   |
+| Azul médiu       | `#5555da`   |
 | Roxo claro       | `#7A76DB`   |
 | Rosa fúcsia      | `#DB3F79`   |
 
