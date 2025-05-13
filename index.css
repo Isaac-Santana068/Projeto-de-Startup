@@ -9,13 +9,17 @@
     position: fixed;
     
 }
+
 #pesquisa{
     position: relative;
-    left: 35%;
-    width: 30%;
+    left: 30%;
+    width: 40%;
     height: 35px;
     border-radius: 10px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 3px solid rgb(55, 55, 55);
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(205, 205, 205);
 }
 #usuario{
     width: 40px;
@@ -44,6 +48,7 @@ body{
     top: 40px;
     left: 30px;
     cursor: pointer;
+    vertical-align: baseline;
 }
 #ba2{
     top: -43%;
