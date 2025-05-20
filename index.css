@@ -29,7 +29,17 @@
     color: white;
 }
 ::placeholder{
+    position: relative;
+    left: 15px;
     color: aliceblue;
+}
+.lupa {
+    position: absolute;
+    top: 48%;
+    left: 63vh;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #555;
 }
 #explorar{
     position: relative;
