@@ -15,6 +15,13 @@
 }
 
 /* Campo de pesquisa */
+input:focus, textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+input{
+    padding-left: 20px;
+}
 #pesquisa {
     position: relative;
     left: 20%;
