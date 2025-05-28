@@ -14,54 +14,12 @@
     z-index: 1000; /* Garante que fique acima de outros elementos */
 }
 
-/* Campo de pesquisa */
-input:focus, textarea:focus{
-    outline: none;
-    box-shadow: none;
-}
-input{
-    padding-left: 20px;
-}
-#pesquisa {
-    position: relative;
-    left: 20%;
-    bottom:10px;
-    width: 40%;
-    height: 35px;
-    border-radius: 20px;
-    border: 3px solid rgb(55, 55, 55);
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #445463;
-    color: white;
-    background-image: url('lupa.png');
-    background-size: 20px;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-::placeholder{
-    position: relative;
-    right: 10px;
-    color: aliceblue;
-}
-#explorar{
-    position: relative;
-    float: left;
-    bottom: 16px; 
-    left: 15%;
-    background-color: #2a3843;
-    color: white;
-    padding: 15px;
-    width: 10%;
-    border-radius: 10px;
-}
-
 /* Ícone do usuário */
 #usuario {
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 5%; /* Mais responsivo que usar left: 93% */
+    right: 10%; /* Mais responsivo que usar left: 93% */
     top: 50%;
     transform: translateY(-50%);
 }
