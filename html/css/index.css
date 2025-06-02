@@ -21,6 +21,24 @@ body {
   box-shadow: 0px 0px 70px black;
   z-index: 1000;
 }
+/* ------------------------Barra de pesquisa---------------------------------*/
+#barra{
+  width: 20%;
+  height: 40px;
+  position: relative;
+  bottom: 8vmax;
+  left:55%;
+  border-radius: 40px;
+  padding: 15px;
+}
+input[type= 'text'] {         /* Remove a borda */
+  outline: none;         /* Remove a borda de foco (ao clicar) */
+ 
+}
+::placeholder{
+  position:relative;
+  left: 2px;
+}
 
 #usuario {
   width: 50px;
@@ -56,4 +74,9 @@ body {
 .grid-item img {
   width: 100%;
   display: block;
+   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.grid-item img.loaded {
+  opacity: 1;
 }
