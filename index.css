@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * {
   font-family: 'Oswald', sans-serif;
@@ -20,6 +20,23 @@ body {
   left: 0;
   box-shadow: 0px 0px 70px black;
   z-index: 1000;
+}
+#barra{
+  width: 20%;
+  height: 40px;
+  position: relative;
+  bottom: 4.3vmax;
+  left:55%;
+  border-radius: 40px;
+}
+input[type= 'text'] {         /* Remove a borda */
+  outline: none;         /* Remove a borda de foco (ao clicar) */
+ 
+}
+
+::placeholder{
+  position:relative;
+  left: 10px;
 }
 
 #usuario {
@@ -57,3 +74,4 @@ body {
   width: 100%;
   display: block;
 }
+
