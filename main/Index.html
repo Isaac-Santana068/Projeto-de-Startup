@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <title>ArtShield</title>
+</head>
+<body>
+  <div id="conteinernav">
+  <nav>
+    <div class="logo_conteiner">
+      <img id="logo" src="imagens/logo.png" alt="Logo">
+    </div>
+    <div id="ligacoes">
+      <!-- Ícone de usuário -->
+      <a href="#">
+        <img src="imagens/icon_usuario.png" style="position:absolute; left:90%; bottom:-5px; font-size:60px; color:black;" alt="Usuario">
+      </a>
+      <!--Barra de pesquisa-->
+      <div class="barra_pesquisa">
+        <input type="text" id="barra" placeholder="Pesquise">
+      </div>
+      </div>
+    </nav>
+  </div>
+
+  <div id="conteiner">
+    <div class="grid" id="gradeimagem"></div>
+  </div>
+
+  <div id="conteiner">
+    <div class="grid" id="gradeimagem"></div>
+  </div>
+
+  <script src="Scripts/gerar_imagens.js"></script>
+  <script src="Scripts/barra_pesquisa.js"></script>
+</body>
+</html>
